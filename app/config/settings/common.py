@@ -1,7 +1,7 @@
 import os
 
 # Paths
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ROOT_DIR = os.path.dirname(BASE_DIR)
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
@@ -94,4 +94,3 @@ TIME_ZONE = 'Asia/Seoul'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
-DEBUG = True
