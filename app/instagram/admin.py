@@ -8,10 +8,10 @@ class PostAdmin(admin.ModelAdmin):
 
 
 @admin.register(Comment)
-class PostAdmin(admin.ModelAdmin):
+class CommentAdmin(admin.ModelAdmin):
     pass
 
 
 @admin.register(Tag)
-class PostAdmin(admin.ModelAdmin):
+class TagAdmin(admin.ModelAdmin):
     pass
